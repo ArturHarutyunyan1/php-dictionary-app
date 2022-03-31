@@ -1,23 +1,31 @@
-# Php working contact form
+# PHP - English Dictionary app
 
-This is a simple working php contact form that can send messages to a recipient's email address from a user on your site.
+This is a simple dictionary application written in php.
 
-![.](./src/assets/preview.jpg)
+# Schreenshots
 
-#Usage
+![.](./src/assets/img/home.jpg)
+![.](./src/assets/img/404.jpg)
 
-- Set up your XAMPP server to send emails
-- Create database (e.g) contact-form, and import messages.sql file there (src/sql/messages.sql)
-- Edit Mysql connect line (index.php line 10)
-- Set receiver email address (index.php line 30)
+# How it works?
+
+The user searches for a word, and the application finds that word in the database and returns that word and the value of that word.
+
+# Usage
+
+- Create database (e.g) dict and import SQL file there (./src/sql/oedict.sql)
 
 # Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- PHP
+- Php
 - JavaScript
+
+# Useful resources
+
+- [Flaticon](https://www.flaticon.com/)
 
 # Author
 
-[ArturHarutyunyan](https://github.com/ArturHarutyunyan1)
+- [Artur Harutyunyan](https://github.com/ArturHarutyunyan1)
