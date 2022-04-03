@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-form{
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header h1{
+    margin-bottom: 15px;
+}
+
+.col{
+    width: 90%;
+    height: 50px;
+    margin: 25px auto;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    border: 1px solid #e6e7e9;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.col button{
+    width: 100%;
+    height: 100%;
+    background: #5551fe;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background: #5551fe;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.error{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ff2b2b;
+}
+
+a, span{
+    color: #5551fe;
+}
+
+@media (max-width: 420px){
+    .input-form{
+        width: 90%;
+        margin: auto;
+    }
+}
