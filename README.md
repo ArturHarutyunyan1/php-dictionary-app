@@ -1,30 +1,31 @@
-# Php Registration/Login form
-#### Registration and login with email verification
----
+# PHP - English Dictionary app
 
-![](./src/assets/screenshot1.jpg)
-![](./src/assets/screenshot2.jpg)
-![](./src/assets/screenshot3.jpg)
-![](./src/assets/screenshot4.jpg)
+This is a simple dictionary application written in php.
 
-## How it works?
----
-First, the user needs to register in the registration form, then verify the email address using the code that was sent to their email address, and finally log in using this data.
+# Schreenshots
 
-## Usage
----
-- Set up your XAMPP server to send emails
-- Create database (e.g) registration, and import messages.sql file there (./src/users.sql)
+![.](./src/assets/img/home.jpg)
+![.](./src/assets/img/404.jpg)
 
-## Built with
+# How it works?
 
----
+The user searches for a word, and the application finds that word in the database and returns that word and the value of that word.
+
+# Usage
+
+- Create database (e.g) dict and import SQL file there (./src/sql/oedict.sql)
+
+# Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- PHP
+- Php
+- JavaScript
 
-## Author
+# Useful resources
 
----
+- [Flaticon](https://www.flaticon.com/)
+
+# Author
+
 - [Artur Harutyunyan](https://github.com/ArturHarutyunyan1)
